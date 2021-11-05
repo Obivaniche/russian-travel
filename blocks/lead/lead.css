@@ -1,0 +1,35 @@
+.lead {
+    display: grid;
+    grid-column: auto;
+    grid-row: auto;
+    min-width: 320px;
+    max-width: 767px;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    .lead {
+        min-width: 768px;
+        max-width: 1023px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .lead {
+        min-width: 1024px;
+        max-width: 1279px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .lead {
+        min-width: 1024px;
+        margin: auto;
+    }
+
+}

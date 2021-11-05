@@ -1,0 +1,27 @@
+.header__link_ru {
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    font-weight: 300;
+    margin-left: 18px;
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+
+    .header__link_ru {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+}
+
+/*
+.header__link:hover {
+    text-decoration: underline;
+}
+
+.header__link:active {
+    text-decoration: underline;
+}
+/*

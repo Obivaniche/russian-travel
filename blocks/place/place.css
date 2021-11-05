@@ -1,0 +1,35 @@
+.place {
+    width: 320px;
+    display: grid;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+
+    .place {
+        width: 720px;
+        grid-template-columns: 340px 352px;
+        column-gap: 28px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .place {
+        width: 928px;
+        grid-template-columns: 440px 456px;
+        column-gap: 32px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .place {
+        width: 984px;
+        grid-template-columns: 460px 484px;
+        column-gap: 40px;
+    }
+
+}
