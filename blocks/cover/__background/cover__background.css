@@ -1,14 +1,23 @@
 .cover__background {
+    margin: auto;
     width: 320px;
-    background-color: black;
-    opacity: 0.7;
+    height: 200px;
+    background-size: cover;
+    background-color: #2a2c2f;
+    opacity: .3;
     transition: opacity .4s linear;
+    position: relative;
+}
+
+.cover__background:hover {
+    opacity: .8;
 }
 
 @media screen and (min-width: 768px) {
 
     .cover__background {
         width: 768px;
+        height: 480px;
     }
 
 }
@@ -17,10 +26,7 @@
 
     .cover__background {
         width: 1024px;
-    }
-
-    .cover__background:hover {
-        opacity: .2;
+        height: 640px;
     }
 
 }
@@ -28,7 +34,8 @@
 @media screen and (min-width: 1280px) {
 
     .cover__background {
-        width: 1184px;
+        width: 1280px;
+        height: 720px;
     }
 
 }

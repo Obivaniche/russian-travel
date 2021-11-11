@@ -1,15 +1,20 @@
 .cover {
-    display: grid;
+    display: flex;
     justify-content: center;
-    min-width: 320px;
-    max-width: 767px;
+    margin: auto;
+    width: 320px;
+    height: 200px;
+    background-image: url(../../images/cover__background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 @media screen and (min-width: 768px) {
 
     .cover {
-        min-width: 768px;
-        max-width: 1023px;
+        width: 768px;
+        height: 480px;
     }
 
 }
@@ -17,8 +22,8 @@
 @media screen and (min-width: 1024px) {
 
     .cover {
-        min-width: 1024px;
-        max-width: 1279px;
+        width: 1024px;
+        height: 640px;
     }
 
 }
@@ -26,8 +31,8 @@
 @media screen and (min-width: 1280px) {
 
     .cover {
-        min-width: 1280px;
-        margin: auto;
+        width: 1280px;
+        height: 720px;
     }
 
 }

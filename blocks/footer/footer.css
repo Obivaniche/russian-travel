@@ -1,4 +1,5 @@
 .footer {
+    padding-top: 64px;
     min-width: 320px;
     max-width: 767px;
     display: grid;

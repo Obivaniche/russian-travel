@@ -1,11 +1,16 @@
 .header__link {
     font-size: 18px;
     line-height: 20px;
+    font-family: 'inter-Regular';
     color: white;
-    font-weight: 300;
     margin-left: 18px;
     text-decoration: none;
+    transition: opacity .4s linear;
 }
+
+.header__link:hover {
+    opacity: .8;
+    }
 
 @media screen and (min-width: 768px) {
 

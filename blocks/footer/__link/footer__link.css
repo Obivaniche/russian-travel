@@ -7,19 +7,15 @@
     transition: opacity .4s linear;
 }
 
+.footer__link:hover {
+    opacity: .8;
+    }
+
 @media screen and (min-width: 768px) {
 
     .footer__link {
         font-size: 16px;
         line-height: 18px;
-    }
-
-}
-
-@media screen and (min-width: 1024px) {
-
-    .footer__link:hover {
-    opacity: .5;
     }
 
 }
