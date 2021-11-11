@@ -1,5 +1,5 @@
 .cover__subtitle {
-    margin: 16px 0 0 0;
+    margin: 16px auto 0 auto;
     padding: 0;
     color: white;
     font-size: 14px;
@@ -7,8 +7,7 @@
     font-family: 'Inter-Regular';
     text-align: center;
     position: absolute;
-    top: 119px;
-    margin: auto;
+    top: 119px; 
 }
 
 @media screen and (min-width: 768px) {

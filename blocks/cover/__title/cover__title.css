@@ -1,5 +1,5 @@
 .cover__title {
-    margin: 33px 0 0 0;
+    margin: 33px auto 0 auto;
     padding: 0;
     color: white;
     font-size: 32px;
@@ -9,7 +9,6 @@
     text-decoration: none;
     position: absolute;
     top: 33px;
-    margin: auto;
 }
 
 @media screen and (min-width: 768px) {
