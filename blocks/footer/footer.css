@@ -1,27 +1,7 @@
 .footer {
     padding-top: 64px;
-    min-width: 320px;
-    max-width: 767px;
     display: grid;
     justify-content: center;
-}
-
-@media screen and (min-width: 768px) {
-
-    .footer {
-        min-width: 768px;
-        max-width: 1023px;
-    }
-
-}
-
-@media screen and (min-width: 1024px) {
-
-    .footer {
-        min-width: 1024px;
-        max-width: 1279px;
-    }
-
 }
 
 @media screen and (min-width: 1280px) {
