@@ -3,8 +3,8 @@
     align-content: start;
     justify-content: center;
     margin: auto;
-    width: 320px;
-    height: 200px;
+    min-width: 320px;
+    max-width: 1184px;
     background-image: url(../../images/cover__background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,8 +32,7 @@
 @media screen and (min-width: 768px) {
 
     .cover {
-        width: 768px;
-        height: 480px;
+        min-height: 480px;
     }
 
 }
@@ -41,8 +40,7 @@
 @media screen and (min-width: 1024px) {
 
     .cover {
-        width: 1024px;
-        height: 640px;
+        min-height: 640px;
     }
 
 }
@@ -50,8 +48,7 @@
 @media screen and (min-width: 1280px) {
 
     .cover {
-        width: 1280px;
-        height: 720px;
+        min-height: 720px;
     }
 
 }
