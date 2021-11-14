@@ -3,22 +3,23 @@
     color: white;
     font-size: 16px;
     line-height: 163%;
+    max-width: 720px;
 }
 
 @media screen and (min-width: 768px) {
 
-    .intro__text{
-        width: 720px;
+    .intro__text {
         margin: 40px 24px 0 24px;
     }
-
+    
 }
+
 
 @media screen and (min-width: 1024px) {
 
     .intro__text {
-        width: 690px;
-        margin: 40px auto 0 48px;
+        max-width: 690px;
+        margin: 40px 0 0 0;
     }
 
 }

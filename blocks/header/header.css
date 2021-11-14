@@ -2,9 +2,10 @@
     padding: 0 0 48px 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-width: 1184px;
 }
 
-@media screen and (min-width: 1290px) {
+@media screen and (min-width: 1280px) {
 
     .header {
         margin: auto;

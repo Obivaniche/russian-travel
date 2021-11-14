@@ -1,0 +1,5 @@
+.cover__link {
+    justify-content: center;
+    text-decoration: none;
+    z-index: 2;
+}

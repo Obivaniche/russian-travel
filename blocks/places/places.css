@@ -2,7 +2,7 @@
     padding: 64px 0 66px 0;
     display: grid;
     justify-content: center;
-    grid-template-rows: 5;
+    grid-template-rows: repeat (5, 1fr);
     gap: 50px;
 }
 

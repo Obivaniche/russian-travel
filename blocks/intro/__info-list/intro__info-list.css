@@ -1,5 +1,5 @@
 .intro__info-list {
-    margin: 34px 16px 0 16px;
+    margin: 34px 0 0 16px;
     padding: 0;
     list-style: none;
     color: white;
@@ -10,14 +10,13 @@
     .intro__info-list {
         margin: 33px 24px 0 24px;
     }
-
+    
 }
 
 @media screen and (min-width: 1024px) {
 
     .intro__info-list {
-        width: 690px;
-        margin: 33px auto 0 48px;
+        margin: 33px 0 0 0;
     }
-
+    
 }

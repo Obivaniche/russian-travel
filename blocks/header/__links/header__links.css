@@ -1,7 +1,0 @@
-.header__links {
-    text-decoration: underline;
-}
-
-.header__links:last-child {
-    text-decoration: none;
-}

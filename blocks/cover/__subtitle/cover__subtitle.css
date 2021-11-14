@@ -1,12 +1,12 @@
 .cover__subtitle {
     margin: 16px 0 0 0;
     padding: 0;
+    width: 288px;
     color: white;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
-    justify-self: center;
-    z-index: 2;
+    margin: auto;
 }
 
 @media screen and (min-width: 768px) {
