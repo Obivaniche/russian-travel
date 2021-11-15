@@ -1,7 +1,7 @@
 .cover {
     display: grid;
-    align-content: start;
-    justify-content: center;
+    
+    align-items: center;
     margin: auto;
     min-height: 200px;
     min-width: 320px;
