@@ -9,15 +9,7 @@
     .header__logo {
         width: 176px;
         height: 52px;
-        margin: 28px 0 0 24px;
-    }
-
-}
-
-@media screen and (min-width: 1024px) {
-
-    .header__logo {
-        margin: 28px 0 0 48px;
+        margin: 28px 0 0 0;
     }
 
 }

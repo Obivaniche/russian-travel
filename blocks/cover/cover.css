@@ -1,6 +1,5 @@
 .cover {
     display: grid;
-    
     align-items: center;
     margin: auto;
     min-height: 200px;
@@ -49,7 +48,7 @@
 @media screen and (min-width: 1280px) {
 
     .cover {
-        min-height: 720px;
+        min-height: 740px;
     }
 
 }

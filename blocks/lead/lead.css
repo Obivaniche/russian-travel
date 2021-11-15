@@ -4,12 +4,3 @@
     grid-row: auto;
     justify-content: center;
 }
-
-@media screen and (min-width: 1024px) {
-
-    .lead {
-        margin: auto;
-        padding: 0 48px 0 48px;
-    }
-
-}

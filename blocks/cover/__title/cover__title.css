@@ -8,31 +8,15 @@
     font-weight: 900;
     text-align: center;
     text-decoration: none;
+    align-self: end;
 }
 
 @media screen and (min-width: 768px) {
 
     .cover__title {
         width: 560px;
-        
         font-size: 72px;
         line-height: 76px;
-    }
-
-}
-
-@media screen and (min-width: 1024px) {
-
-    .cover__title {
-        
-    }
-
-}
-
-@media screen and (min-width: 1280px) {
-
-    .cover__title {
-        
     }
 
 }
