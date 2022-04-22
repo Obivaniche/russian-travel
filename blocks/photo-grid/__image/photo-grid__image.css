@@ -1,6 +1,7 @@
 .photo-grid__image {
     width: 288px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {

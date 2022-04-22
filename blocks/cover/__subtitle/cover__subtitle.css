@@ -6,7 +6,9 @@
     font-size: 14px;
     line-height: 16px;
     text-align: center;
-    align-self: start;
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
 }
 
 @media screen and (min-width: 768px) {

@@ -3,6 +3,8 @@
     text-decoration: underline;
     font-size: 18px;
     line-height: 22px;
+    -webkit-transition: opacity .4s linear;
+    -o-transition: opacity .4s linear;
     transition: opacity .4s linear;
 }
 

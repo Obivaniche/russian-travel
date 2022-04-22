@@ -1,14 +1,18 @@
 .photo-grid {
     padding: 64px 0 0 0;
+    display: -ms-grid;
     display: grid;
     gap: 12px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
 
     .photo-grid {
         padding: 88px 0 0 0;
+        -ms-grid-columns: 352px 16px 352px;
         grid-template-columns: repeat(2, 352px);
         gap: 16px;
     }
@@ -19,6 +23,7 @@
 
     .photo-grid {
         padding: 92px 0 0 0;
+        -ms-grid-columns: 300px 14px 300px 14px 300px;
         grid-template-columns: repeat(3, 300px);
         gap: 14px;
     }
@@ -30,6 +35,7 @@
     .photo-grid {
         margin: auto;
         padding: 92px 0 0 0;
+        -ms-grid-columns: 284px 16px 284px 16px 284px 16px 284px;
         grid-template-columns: repeat(4, 284px);
         gap: 16px;
     }

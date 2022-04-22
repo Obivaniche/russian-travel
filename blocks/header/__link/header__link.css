@@ -4,6 +4,8 @@
     color: white;
     margin-left: 18px;
     text-decoration: none;
+    -webkit-transition: opacity .4s linear;
+    -o-transition: opacity .4s linear;
     transition: opacity .4s linear;
 }
 

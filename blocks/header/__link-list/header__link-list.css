@@ -1,7 +1,10 @@
 .header__link-list {
     padding: 0;
-    justify-self: end;
+    -ms-grid-column-align: end;
+        justify-self: end;
     margin: 30px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     list-style: none;
 }

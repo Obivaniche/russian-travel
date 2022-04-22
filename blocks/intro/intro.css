@@ -1,4 +1,5 @@
 .intro {
+    display: -ms-grid;
     display: grid;
     padding: 64px 0 0 0;
     min-width: 320px;
