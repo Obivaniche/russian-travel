@@ -1,9 +1,0 @@
-.lead {
-    display: -ms-grid;
-    display: grid;
-    grid-column: auto;
-    grid-row: auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-}
